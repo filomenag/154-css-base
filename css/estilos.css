@@ -1,0 +1,27 @@
+h1{
+	text-transform: uppercase; /* transforma o texto em maiusculas */
+	font-style: italic; /* mete em italico */
+	font-weight: 100; /* espessura fina-vai de 100 a 900 */
+	font-family: fantasy, arial; /* tipo de letra */
+	letter-spacing: 20px; /* espaçamento entre letras */
+	line-height: 60px; /* altura da linha */
+	text-align: left; /* alinhamento do texto */
+	text-decoration: line-through; /* risco por cima do texto razurado, outros valores:nome */
+	color:red; /* cor do texto vermelha */
+}
+
+
+
+body div.logo{
+	width:30px; /* largura 30px */
+	float: right; /* encostar a direita */
+}
+
+div.caixa{
+	border:1px dashed red; /* rebordo tracejado 1px vermelho */
+	width:50%; /* largura 50% da area disponivel */
+	margin:50px 30px 100px 120px; /* a margem 50px em cima, 30px direita, 100px baixo e 120 a esquerda */
+	padding:30px; /* margem "interna" de 30px em cima direita baixo e esquerda */
+	float: left;
+}
+
